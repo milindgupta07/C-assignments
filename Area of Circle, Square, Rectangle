@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    float r,a,b;
+
+    cin>>r;
+    cout<<"Circle Area: "<<3.14*r*r<<endl;
+
+    cin>>a;
+    cout<<"Square Area: "<<a*a<<endl;
+
+    cin>>a>>b;
+    cout<<"Rectangle Area: "<<a*b;
+}
