@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+enum days {Sun,Mon,Tue,Wed,Thu,Fri,Sat};
+
+int main(){
+    days d;
+    d=Wed;
+    cout<<d;
+}
