@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+float interest(float p,int t,float r=5){
+    return (p*t*r)/100;
+}
+
+int main(){
+    cout<<interest(1000,2);
+}
